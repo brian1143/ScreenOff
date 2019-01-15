@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.NoDisplay">
-        <activity android:name=".MainActivity"
-            android:label="@string/app_label">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data android:name="android.app.shortcuts"
+                       android:resource="@xml/shortcuts" />
         </activity>
         <receiver android:name=".AdminReceiver"
                   android:label="@string/receiver_label"
@@ -26,6 +27,10 @@
                 <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
             </intent-filter>
         </receiver>
+        <activity android:name=".UninstallActivity"
+            android:label="@string/app_uninstall_label"
+            android:theme="@style/AppTheme">
+        </activity>
     </application>
 
 </manifest>

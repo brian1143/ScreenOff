@@ -10,11 +10,9 @@ import android.os.Bundle
 import android.util.Log
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var devicePolicyManager: DevicePolicyManager
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        devicePolicyManager = getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
+        val devicePolicyManager = getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
         val componentName = ComponentName(this, AdminReceiver::class.java)
         if (devicePolicyManager.isAdminActive(componentName)) {
             Log.i("debug", "admin is active")

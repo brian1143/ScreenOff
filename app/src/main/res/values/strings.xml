@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Screen Off</string>
-    <string name="app_label">ScreenOff activity label</string>
-    <string name="receiver_label">ScreenOff device management</string>
-    <string name="receiver_description">ScreenOff receiver description</string>
-    <string name="add_admin_extra_app_text">Before ScreenOff can help to lock your screen, it requires the permission to manage your screen lock function.</string>
+    <string name="receiver_label">Screen Off management tool</string>
+    <string name="receiver_description">Screen Off management tool</string>
+    <string name="add_admin_extra_app_text">Thanks for using Screen Off. Before Screen Off can help you to lock the screen, it requires the activiting of your Lock the screen function. Please select ACTIVATE to proceed. On the function activated, the screen will be off. To uninstall Screen Off, long press the Screen Off to bring up app shortcut, select UNINSTALL and follow the prompt.</string>
+    <string name="uninstall_shortcut_short_label">Uninstall</string>
+    <string name="app_uninstall_label">Screen Off uninstall</string>
+    <string name="uninstall_message">Thanks for using ScreenOff. To uninstall, press the uninstall button.</string>
+    <string name="btn_uninstall">Uninstall</string>
 </resources>
