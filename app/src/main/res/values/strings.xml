@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ScreenOff</string>
+    <string name="app_label">ScreenOff activity label</string>
+    <string name="receiver_label">ScreenOff device management</string>
+    <string name="receiver_description">ScreenOff receiver description</string>
+    <string name="add_admin_extra_app_text">Before ScreenOff can help to lock your screen, it requires the permission to manage your screen lock function.</string>
+</resources>
