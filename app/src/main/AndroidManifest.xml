@@ -27,8 +27,8 @@
                 <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
             </intent-filter>
         </receiver>
-        <activity android:name=".UninstallActivity"
-            android:label="@string/app_uninstall_label"
+        <activity android:name=".SettingsActivity"
+            android:label="@string/app_settings_label"
             android:theme="@style/AppTheme">
         </activity>
     </application>

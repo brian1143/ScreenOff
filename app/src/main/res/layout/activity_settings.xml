@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UninstallActivity">
+    tools:context=".SettingsActivity">
 
     <TextView
         android:id="@+id/tv_message"
@@ -15,7 +15,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/uninstall_message"
+        android:text="@string/settings_message"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,9 +28,21 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:onClick="onUninstallClicked"
+        android:onClick="onButtonClicked"
         android:text="@string/btn_uninstall"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_rate"
+        app:layout_constraintStart_toEndOf="@+id/btn_rate" />
+
+    <Button
+        android:id="@+id/btn_rate"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onButtonClicked"
+        android:text="@string/btn_rate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_message" />
 

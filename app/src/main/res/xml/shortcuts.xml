@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
     <shortcut
-        android:shortcutId="shortcut_uninstall"
+        android:shortcutId="shortcut_settings"
         android:enabled="true"
         android:icon="@drawable/ic_shortcut_settings"
-        android:shortcutShortLabel="@string/uninstall_shortcut_short_label">
+        android:shortcutShortLabel="@string/settings_shortcut_short_label">
         <intent
             android:action="android.intent.action.VIEW"
             android:targetPackage="app.phhuang.screenoff"
-            android:targetClass="app.phhuang.screenoff.UninstallActivity" />
+            android:targetClass="app.phhuang.screenoff.SettingsActivity" />
         <!-- If your shortcut is associated with multiple intents, include them
              here. The last intent in the list determines what the user sees when
              they launch this shortcut. -->
