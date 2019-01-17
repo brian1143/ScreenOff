@@ -5,7 +5,7 @@
     <string name="add_admin_extra_app_text">Thanks for using Screen Off.\nBefore Screen Off turing off your screen, it requires the activiting of your Lock the screen function. Upon activation, the screen will be off immediately.\nLater on, you can long press the Screen Off to bring up app shortcut and select Settings to do further configuration.</string>
     <string name="settings_shortcut_short_label">Settings</string>
     <string name="app_settings_label">Screen Off settings</string>
-    <string name="settings_message">Thanks for using Screen Off!\n\nPlease rate this app and help to improve it by leaving your message.\n\nTo uninstall, your can press the uninstall button.</string>
+    <string name="settings_message">Thanks for using Screen Off!\n\nPlease rate this app and help to improve it by leaving your message.\n\nIf you don\'t like it, your can press the uninstall button to uninstall.</string>
     <string name="btn_uninstall">Uninstall</string>
     <string name="btn_rate">Rate this app</string>
 </resources>
