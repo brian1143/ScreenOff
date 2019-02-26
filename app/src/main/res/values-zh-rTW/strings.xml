@@ -9,4 +9,5 @@
     <string name="btn_rate">評分</string>
     <string name="settings_message">感謝您選擇使用 關螢幕 管理工具！\n\n請您為這個應用程式評分，並留下評論來幫忙改進它。\n\n如果您不喜歡，按下移除，可以幫您快速移除程式。</string>
     <string name="add_admin_extra_app_text">感謝您的選擇使用 關螢幕 管理工具！\n在幫您關螢幕之前，需要您幫忙啟用【鎖定螢幕】的執行，選擇啟用後，就會馬上幫您關畢螢幕。\n往後您可以長按 關螢幕 管理工具，並選擇設定來進行進階設定。</string>
+    <string name="toast_ready_to_remove">您現在可以移除這個 App 了</string>
 </resources>

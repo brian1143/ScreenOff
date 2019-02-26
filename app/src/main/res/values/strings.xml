@@ -8,4 +8,5 @@
     <string name="settings_message">Thanks for using Screen Off!\n\nPlease rate this app and help to improve it by leaving your message.\n\nIf you don\'t like it, your can press the uninstall button to uninstall.</string>
     <string name="btn_uninstall">Uninstall</string>
     <string name="btn_rate">Rate this app</string>
+    <string name="toast_ready_to_remove">You can now remove the application.</string>
 </resources>
