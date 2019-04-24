@@ -9,4 +9,5 @@
     <string name="btn_uninstall">Uninstall</string>
     <string name="btn_rate">Rate this app</string>
     <string name="toast_ready_to_remove">You can now remove the application.</string>
+    <string name="qs_tile_label">Screen off button</string>
 </resources>
