@@ -1,6 +1,7 @@
 package app.phhuang.screenoff
 
 import android.content.Intent
+import android.content.Intent.FLAG_ACTIVITY_NEW_TASK
 import android.os.Build
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
@@ -42,6 +43,7 @@ class ScreenOffTileService : TileService() {
         sendBroadcast(Intent(Intent.ACTION_CLOSE_SYSTEM_DIALOGS))
 
         val intentMainActivity = Intent(this, MainActivity::class.java)
+        intentMainActivity.flags = FLAG_ACTIVITY_NEW_TASK
         startActivity(intentMainActivity)
     }
 }
