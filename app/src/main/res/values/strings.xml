@@ -9,5 +9,10 @@
     <string name="btn_uninstall">Uninstall</string>
     <string name="btn_rate">Rate this app</string>
     <string name="toast_ready_to_remove">You can now remove the application.</string>
-    <string name="qs_tile_label">Screen off button</string>
+    <string name="qs_tile_label">Screen Off button</string>
+    <string name="settings_how_to_1">1. Find the Screen Off app icon like this in your app list:</string>
+    <string name="settings_how_to_2">2. Click on the Screen Off icon.\n3. For the first time click, we will need your approval to activate the Lock screen function.\n4. For the following clicks, the device screen will be turned off immediately.</string>
+    <string name="settings_or">or</string>
+    <string name="settings_how_to_title">How to use Screen Off:</string>
+    <string name="btn_more">More</string>
 </resources>

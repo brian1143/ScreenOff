@@ -29,7 +29,13 @@
         </receiver>
         <activity android:name=".SettingsActivity"
             android:label="@string/app_settings_label"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme"
+            android:icon="@mipmap/ic_settings"
+            android:roundIcon="@mipmap/ic_settings_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <service
             android:name=".ScreenOffTileService"

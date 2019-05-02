@@ -47,8 +47,12 @@ class SettingsActivity : AppCompatActivity() {
                 try {
                     startActivity(goToMarketIntent)
                 } catch (e: ActivityNotFoundException) {
-                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=$packageName")))
+                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=$packageName")))
                 }
+            }
+            R.id.btnMore -> {
+                val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/developer?id=Pai-Hsiang,+Huang"))
+                startActivity(browserIntent)
             }
         }
     }
