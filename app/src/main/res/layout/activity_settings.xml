@@ -80,7 +80,6 @@
 
     <Button
         android:id="@+id/btn_uninstall"
-        style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -92,7 +91,6 @@
 
     <Button
         android:id="@+id/btn_rate"
-        style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -142,7 +140,6 @@
 
     <Button
         android:id="@+id/btnMore"
-        style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
